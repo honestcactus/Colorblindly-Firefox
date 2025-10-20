@@ -1,0 +1,6 @@
+{
+    "name": "colorblindly",
+    "version": "2.5",
+    "description": "Simulates colorblindness in your web browser.",
+    "main": "manifest.json"
+}
