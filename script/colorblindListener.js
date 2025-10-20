@@ -9,7 +9,7 @@ async function injectFilter(fileName) {
   console.log("Attempting to inject filter:", fileName);
 
   // Query the active tab in the current window
-  const tabs = await chrome.tabs.query({ active: true, currentWindow: true });
+  const tabs = await browser.tabs.query({ active: true, currentWindow: true });
   if (tabs.length === 0) {
     console.error("No active tab found in the current window. Script injection aborted.");
     return;
@@ -20,7 +20,7 @@ async function injectFilter(fileName) {
 
   try {
     // Inject the script into the active tab
-    await chrome.scripting.executeScript({
+    await browser.scripting.executeScript({
       target: { tabId: activeTab.id },
       files: [fileName],
     });
