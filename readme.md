@@ -1,3 +1,8 @@
+# CURRENTLY BROKEN
+
+Firefox port of Colorblindly with the help of [CTF by Brad Parks](https://github.com/bradparks/CTF__export_chrome_extension_to_firefox)
+
+
 # [Colorblindly](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg)
 
 ![](https://cdn.discordapp.com/attachments/494330335149162528/508852562435506195/comparison.png)
